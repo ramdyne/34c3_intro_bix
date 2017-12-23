@@ -163,7 +163,7 @@
 	<cameraType>0</cameraType>
 	<cameraName>Active Camera</cameraName>
 	<mirrorHMD>0</mirrorHMD>
-	<panZoom camera="0" zoom="0.49074074625968933" panX="179" panY="5" mode="2" centered="1"/>
+	<panZoom camera="0" zoom="1.1814814805984497" panX="306" panY="5" mode="2" centered="1"/>
 </viewer>
 <viewer subview="1">
 	<resolutionMode>0</resolutionMode>
@@ -250,7 +250,7 @@
 	<displayEffects>1</displayEffects>
 	<videoVerticalZoom>1.7222222222222223</videoVerticalZoom>
 	<audioVerticalZoom>1.7222222222222223</audioVerticalZoom>
-	<displayRange in="-1886628096 1531250000 3 0" out="21231953411 1000000000 3 0"/>
+	<displayRange in="-943314048 1156250000 3 0" out="20815839177 1000000000 3 0"/>
 </timeline>
 
 <curveeditor>
@@ -258,8 +258,8 @@
 	<snapping>0</snapping>
 	<displayAudioWaveform>0</displayAudioWaveform>
 	<lockKeyframesInTime>0</lockKeyframesInTime>
-	<displayRange in="-1886628096 1531250000 3 0" out="21231953411 1000000000 3 0"/>
-	<currentviewvolume originx="-1.2320836545306122" originy="-62.5" width="22.464037065999999" height="125"/>
+	<displayRange in="-943314048 1156250000 3 0" out="20815839177 1000000000 3 0"/>
+	<currentviewvolume originx="-0.81583917664864869" originy="-62.5" width="21.631678354000002" height="125"/>
 	<snapshotChannels>0</snapshotChannels>
 </curveeditor>
 
@@ -296,13 +296,35 @@
 		<parameterColorSpaceID>3</parameterColorSpaceID>
 		<savePreviewMovie>0</savePreviewMovie>
 	</sceneSettings>
+	<exportSettings>
+		<version>1</version>
+		<locationMode>0</locationMode>
+		<resolutionMode>3</resolutionMode>
+		<colorMode>2</colorMode>
+		<colorSpace>3</colorSpace>
+		<colorSpaceUserSetting>3</colorSpaceUserSetting>
+		<premultiplyAlpha>1</premultiplyAlpha>
+		<renderQuality>6</renderQuality>
+		<textRenderQuality>6</textRenderQuality>
+		<useHighQualityResampling>1</useHighQualityResampling>
+		<useShapeAntialiasing>1</useShapeAntialiasing>
+		<use3DIntersectionAntialiasing>1</use3DIntersectionAntialiasing>
+		<fieldRenderingMode>2</fieldRenderingMode>
+		<motionBlurMode>2</motionBlurMode>
+		<frameBlendingMode>2</frameBlendingMode>
+		<camera>0</camera>
+		<lightingMode>2</lightingMode>
+		<shadowsMode>2</shadowsMode>
+		<reflectionsMode>2</reflectionsMode>
+		<depthOfFieldMode>2</depthOfFieldMode>
+	</exportSettings>
 	<publishSettings>
 		<version>2</version>
 	</publishSettings>
 	<currentFrame>3068928 153600 1 0</currentFrame>
 	<activeLayer>1504716097</activeLayer>
 	<timeRange offset="0 1 1 0" duration="3072000 153600 1 0"/>
-	<playRange offset="0 1 1 0" duration="3072000 153600 1 0"/>
+	<playRange offset="0 153600 1 0" duration="3072000 153600 1 0"/>
 	<flags>1</flags>
 	<audioTracks>1</audioTracks>
 	<timemarkerset/>
