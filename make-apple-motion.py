@@ -117,7 +117,7 @@ def enrich_event(event):
     entertainment = ccc
     ethics = {"red":"1", "green":"0.20000000298023224", "blue":"1"}
     hardware = {"red":"1", "green":"0.40000000596046448", "blue":"0"}
-    resilience = hardware
+    resilience = {"red":"0.64313727617263794", "green":"0.10980392247438431", "blue":"0.19215686619281769"}
     science = {"red":"1", "green":"0.40000000596046448", "blue":"0"}
     security = {"red":"0.4117647111415863", "green":"0", "blue":"0.82745099067687988"}
 
