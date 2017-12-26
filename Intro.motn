@@ -169,7 +169,7 @@
 	<cameraType>0</cameraType>
 	<cameraName>Active Camera</cameraName>
 	<mirrorHMD>0</mirrorHMD>
-	<panZoom camera="0" zoom="2" panX="-1270" panY="-810" mode="1" centered="1"/>
+	<panZoom camera="0" zoom="0.49074074625968933" panX="328" panY="5" mode="2" centered="1"/>
 </viewer>
 
 <projectPanel>
@@ -225,6 +225,7 @@
 	<collapseState id="./1/100/107" state="0"/>
 	<collapseState id="./1/200" state="1"/>
 	<collapseState id="./1/230" state="0"/>
+	<collapseState id="./1/233" state="0"/>
 	<collapseState id="./1/234" state="0"/>
 	<collapseState id="./1/324" state="0"/>
 </inspector>
@@ -260,8 +261,8 @@
 		<version>2</version>
 	</publishSettings>
 	<currentFrame>1136640 153600 1 0</currentFrame>
-	<currentObject>10017</currentObject>
-	<activeLayer>10017</activeLayer>
+	<currentObject>1504724196</currentObject>
+	<activeLayer>1504723177</activeLayer>
 	<timeRange offset="0 1 1 0" duration="2304000 153600 1 0"/>
 	<playRange offset="0 1 1 0" duration="2304000 153600 1 0"/>
 	<flags>1</flags>
@@ -452,7 +453,7 @@
 				</parameter>
 				<parameter name="Crop At Margins" id="372" flags="8589967376" default="0" value="0"/>
 				<parameter name="Basic" id="2000" flags="12884938770" factoryID="0">
-					<parameter name="Substance" id="1504724321" flags="12884906002" factoryID="0">
+					<parameter name="Substance" id="1504724214" flags="12884906002" factoryID="0">
 						<parameter name="Color" id="1" flags="4295004162">
 							<foldFlags>15</foldFlags>
 						</parameter>
@@ -576,12 +577,12 @@
 						</parameter>
 					</parameter>
 				</style>
-				<styleRun style="1504724198" offset="0" length="6"/>
+				<styleRun style="1504724198" offset="0" length="13"/>
 				<aspectRatio>1</aspectRatio>
 				<flags>0</flags>
 				<timing in="976896 153600 1 0" out="2297856 153600 1 0" offset="976896 153600 1 0"/>
 				<foldFlags>0</foldFlags>
-				<baseFlags>34078736</baseFlags>
+				<baseFlags>302514193</baseFlags>
 				<parameter name="Properties" id="1" flags="8589938704">
 					<parameter name="Transform" id="100" flags="8589938704">
 						<parameter name="Position" id="101" flags="8589938704">
@@ -611,7 +612,7 @@
 				</parameter>
 				<parameter name="Object" id="2" flags="8589938704">
 					<parameter name="Text" id="369" flags="8606777345">
-						<text>$track</text>
+						<text>$track       </text>
 					</parameter>
 					<parameter name="Render Text" id="360" flags="8590000146" default="0" value="0"/>
 					<parameter name="Face Camera" id="352" flags="8589934610" default="0" value="0"/>
@@ -650,7 +651,7 @@
 					<parameter name="Auto-Shrink" id="370" flags="8606810128" default="0" value="0"/>
 					<parameter name="Crop At Margins" id="372" flags="8606744592" default="0" value="0"/>
 					<parameter name="Basic" id="2000" flags="12884938770" factoryID="0">
-						<parameter name="Substance" id="1504724331" flags="12884906002" factoryID="0">
+						<parameter name="Substance" id="1504724224" flags="12884906002" factoryID="0">
 							<parameter name="Color" id="1" flags="4295004162">
 								<foldFlags>15</foldFlags>
 							</parameter>
@@ -823,7 +824,7 @@
 					</parameter>
 					<parameter name="Crop At Margins" id="372" flags="8606744592" default="0" value="0"/>
 					<parameter name="Basic" id="2000" flags="12884938770" factoryID="0">
-						<parameter name="Substance" id="1504724341" flags="12884906002" factoryID="0">
+						<parameter name="Substance" id="1504724234" flags="12884906002" factoryID="0">
 							<parameter name="Color" id="1" flags="4295004162">
 								<foldFlags>15</foldFlags>
 							</parameter>
@@ -987,7 +988,7 @@
 					<parameter name="Auto-Shrink" id="370" flags="8590032912" default="0" value="0"/>
 					<parameter name="Crop At Margins" id="372" flags="8589967376" default="0" value="0"/>
 					<parameter name="Basic" id="2000" flags="12884938770" factoryID="0">
-						<parameter name="Substance" id="1504724351" flags="12884906002" factoryID="0">
+						<parameter name="Substance" id="1504724244" flags="12884906002" factoryID="0">
 							<parameter name="Color" id="1" flags="4295004162">
 								<foldFlags>15</foldFlags>
 							</parameter>
@@ -1179,7 +1180,7 @@
 		<aspectRatio>1</aspectRatio>
 		<flags>0</flags>
 		<timing in="0 1 1 0" out="2297856 153600 1 0" offset="0 1 1 0"/>
-		<foldFlags>8192</foldFlags>
+		<foldFlags>0</foldFlags>
 		<baseFlags>524304</baseFlags>
 		<parameter name="Properties" id="1" flags="8589938704">
 			<parameter name="Transform" id="100" flags="8589938704">
@@ -1225,10 +1226,10 @@
 		</parameter>
 		<filter name="Colorize" id="10034" factoryID="19" pluginUUID="D995BBCF-F766-4950-89D5-7A4828CD9B6F" pluginVersion="1" pluginName="Colorize" pluginDynamicParams="0">
 			<timing in="0 1 1 0" out="2297856 153600 1 0" offset="0 1 1 0"/>
-			<baseFlags>8589934609</baseFlags>
+			<baseFlags>8589934608</baseFlags>
 			<parameter name="Remap Black To" id="1" flags="12884906000">
 				<foldFlags>11</foldFlags>
-				<parameter name="Red" id="1" flags="8606711824" default="0.090196080505847931" value="$red"/>
+                <parameter name="Red" id="1" flags="8606711824" default="0.090196080505847931" value="$red"/>
 				<parameter name="Green" id="2" flags="8606711824" default="0" value="$green"/>
 				<parameter name="Blue" id="3" flags="8606711824" default="0" value="$blue"/>
 			</parameter>
